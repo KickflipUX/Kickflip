@@ -1,4 +1,4 @@
-import GitHub from '../../assets/github.png';
+import GitHub from 'assets/github.png';
 
 const Landing = () => {
   return (
