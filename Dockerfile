@@ -4,7 +4,7 @@ WORKDIR /app
 
 RUN npm install -g serve
 
-COPY dist/ /app/
+COPY /dist/ /app/
 
 EXPOSE 1337
 
