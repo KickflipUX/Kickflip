@@ -17,6 +17,8 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: 'latest'
+
+    - name: Install packages
       run: npm i
 
     - name: Build React app
