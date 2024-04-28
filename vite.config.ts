@@ -9,4 +9,14 @@ export default defineConfig({
       pages: "/src/pages",
     },
   },
+  preview: {
+    port: 1337,
+    strictPort: true,
+   },
+  server: {
+    port: 1337,
+    strictPort: true,
+    host: true,
+    origin: "https://kickflipux.com",
+   },
 });
