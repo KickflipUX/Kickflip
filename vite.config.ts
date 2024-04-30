@@ -10,13 +10,12 @@ export default defineConfig({
     },
   },
   preview: {
-    port: 1337,
+    port: 8888,
     strictPort: true,
    },
   server: {
-    port: 1337,
+    port: 8888,
     strictPort: true,
     host: true,
-    origin: "https://kickflipux.com",
    },
 });
