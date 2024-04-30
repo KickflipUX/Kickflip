@@ -3,65 +3,54 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Jetbrains-Mono';
-    src: url('./assets/fonts/JetbrainsMono/JetBrainsMono-Bold.woff2') format('woff2');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+    font-family: 'JetbrainsMono';
+    src: url('./assets/fonts/JetbrainsMono/JetBrainsMono-Bold.woff2') format('woff');
+    font-weight: bold;
 }
 
 @font-face {
-    font-family: 'Jetbrains-Mono';
-    src: url('./assets/fonts/JetbrainsMono/JetBrainsMono-BoldItalic.woff2') format('woff2');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+    font-family: 'JetbrainsMono';
+    src: url('./assets/fonts/JetbrainsMono/JetBrainsMono-BoldItalic.woff2') format('woff');
+    font-weight: bold;
+    font-style: italic;
 }
 
 @font-face {
-    font-family: 'Jetbrains-Mono';
-    src: url('./assets/fonts/JetbrainsMono/JetBrainsMono-Regular.woff2') format('woff2');
+    font-family: 'JetbrainsMono';
+    src: url('./assets/fonts/JetbrainsMono/JetBrainsMono-Regular.woff2') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
-    font-family: 'Helvetica-Neue';
+    font-family: 'HelveticaNeue';
     src: url('./assets/fonts/Helvetica/HelveticaNeue-Bold.woff') format('woff');
     font-weight: bold;
-    font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
-    font-family: 'Helvetica-Neue';
+    font-family: 'HelveticaNeue';
     src: url('./assets/fonts/Helvetica/HelveticaNeue-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+    font-weight: 400;
 }
 
 @font-face {
-    font-family: 'Helvetica-Neue';
+    font-family: 'HelveticaNeue';
     src: url('./assets/fonts/Helvetica/HelveticaNeue-Black.woff') format('woff');
     font-weight: 900;
-    font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
-    font-family: 'Helvetica-Neue';
-    src: url('./assets/fonts/Helvetica/HelveticaNeue-Roman.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Helvetica-Neue';
+    font-family: 'HelveticaNeue';
     src: url('./assets/fonts/Helvetica/HelveticaNeue-Light.woff') format('woff');
     font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+}
+
+* {
+    font-family: 'HelveticaNeue';
+    font-weight: 300;
+}
+
+html {
+    background-color: black;
 }

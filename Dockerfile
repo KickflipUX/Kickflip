@@ -12,6 +12,6 @@ RUN npx vite build
 
 RUN npm install -g serve
 
-EXPOSE 8888
+EXPOSE 7777
 
-CMD ["serve", "-s", "dist", "-l", "8888"]
+CMD ["serve", "-s", "dist", "-l", "7777"]

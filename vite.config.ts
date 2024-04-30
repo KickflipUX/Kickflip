@@ -10,11 +10,11 @@ export default defineConfig({
     },
   },
   preview: {
-    port: 8888,
+    port: 7777,
     strictPort: true,
    },
   server: {
-    port: 8888,
+    port: 7777,
     strictPort: true,
     host: true,
    },

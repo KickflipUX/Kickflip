@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      mono: ['Jetbrains-Mono'],
-      display: ['Helvetica-Neue']
+      mono: ['JetbrainsMono'],
+      display: ['HelveticaNeue']
     }
   },
   plugins: []
